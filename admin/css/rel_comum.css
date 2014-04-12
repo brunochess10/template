@@ -1,0 +1,357 @@
+body{
+margin:0px 0px 0px 0px;
+background-color:#ffffff;
+font-family:verdana;
+}
+
+th.right{text-align:right;}
+th.left{text-align:left;}
+th.center{text-align:center;}
+
+td.right{text-align:right;}
+td.left{text-align:left;}
+td.center{text-align:center;}
+
+
+th#right{text-align:right;}
+th#left{text-align:left;}
+th#center{text-align:center;}
+
+td#right{text-align:right;}
+td#left{text-align:left;}
+td#center{text-align:center;}
+
+
+
+
+.quebra{ page-break-after:always;}
+
+
+#head{
+width:100%;
+border-collapse:collapse;
+}
+
+#head th{
+font-size:10px;
+text-align:left;
+padding-left:0px;
+}
+#head td{
+font-size:10px;
+text-align:left;
+padding:0px;
+}
+
+
+
+
+/************************************************************/
+.head_processo{
+width:29cm;
+border-collapse:collapse;
+border:solid 1px #000000;
+}
+.head_processo th{
+font-size:12px;
+}
+.head_processo td{
+font-size:10px;
+padding:5px;
+}
+
+
+.list_processo{
+width:29cm;
+border-collapse:collapse;
+margin-top:3px;
+}
+
+
+.list_processo th{
+font-size:7pt;
+text-align:left;
+border:solid 1px #000000;
+vertical-align:bottom;
+background-color:#FFCC99;
+font-weight:normal;
+}
+
+/* theo retirou
+.list_processo thead td{
+font-size:7pt;
+text-align:left;
+border:solid 1px #000000;
+vertical-align:bottom;
+background-color:#FFCC99;
+font-weight:normal;
+}
+*/
+
+.list_processo th.right{
+text-align:right;
+}
+
+/* theo retirou
+.list_processo thead td.right{
+text-align:right;
+margin: 0 0 0 0px;
+}
+*/
+
+.list_processo th.center{
+text-align:center;
+}
+
+/* theo retirou
+.list_processo thead td.center{
+text-align:center;
+}
+*/
+
+.list_processo tr.vermelha{
+color:#ff0000;
+}
+
+
+.list_processo td{
+font-size:7pt;
+border:solid 1px #000000;
+border-top:none;
+border-bottom:none;
+}
+
+.list_processo td.foot{
+text-align:right;
+border:solid 1px #000000;
+background-color:#CCFFCC;
+}
+
+.list_processo td.rodape{
+padding-left:10px;
+
+}
+.list_processo td.rodape span{
+text-transform:lowercase;
+margin-left:100px;
+}
+
+.list_processo td#semlinha{
+border:none;
+border-bottom:solid 1px #000000;
+height:5px;
+}
+
+/************************************************************/
+.head_retrato{
+width:17cm;
+border-collapse:collapse;
+border:solid 1px #000000;
+}
+
+.head_retrato th{
+vertical-align:top;
+font-size:16px;
+text-align:center;
+padding-left:5px;
+}
+
+.head_retrato td{
+vertical-align:top;
+font-size:10px;
+padding:5px;
+}
+
+/************************************************************/
+
+.titulo_paisagem{
+width:29cm;
+border-collapse:collapse;
+border:solid 1px #000000;
+margin-bottom:5px;
+background-color:#FFCC99;
+}
+
+.titulo_paisagem th{
+font-weight:normal;
+}
+
+/************************************************************/
+
+/************************************************************/
+
+.titulo_retrato{
+width:17cm;
+border-collapse:collapse;
+border:solid 1px #000000;
+margin-bottom:5px;
+background-color:#FFCC99;
+font-weight:normal;
+}
+
+.titulo_retrato th{
+font-weight:normal;
+}
+
+/************************************************************/
+.head_paisagem{
+width:29cm;
+border-collapse:collapse;
+border:solid 1px #000000;
+}
+.head_paisagem th{
+font-size:14px;
+padding-left:5px;
+vertical-align:top;
+text-align:center;
+}
+.head_paisagem td{
+font-size:10px;
+padding:5px;
+vertical-align:top;
+}
+/************************************************************/
+
+.list_retrato{
+width:17cm;
+border-collapse:collapse;
+margin-top:3px;
+}
+
+.list_retrato th{
+font-size:8pt;
+text-align:left;
+border:solid 1px #000000;
+background-color:#FFCC99;
+font-weight:normal;
+}
+
+.list_retrato th.right{text-align:right;}
+.list_retrato th.center{text-align:center;}
+
+.list_retrato td{
+font-size:8pt;
+border:solid 1px #000000;
+}
+
+.list_retrato td.center{text-align:center;}
+
+.list_retrato td#destaque{
+background-color:#FFFF99;
+}
+
+.list_retrato td#organiza{
+font-size:8pt;
+text-align:left;
+border:solid 1px #000000;
+background-color:#FFCC99;
+font-weight:normal;
+cursor:hand;
+}
+.list_retrato td#organiza img{
+width:0px;
+height:0px;
+}
+
+.list_retrato td.rodape{
+border:solid 1px #000000;
+padding-left:10px;
+}
+.list_retrato td.rodape span{
+text-transform:lowercase;
+margin-left:100px;
+}
+
+
+.list_retrato td#semlinha{
+border:none;
+height:5px;
+}
+
+.list_retrato tfoot td{
+text-align:right;
+border:solid 1px #000000;
+background-color:#CCFFCC;
+}
+
+
+
+/******** ************************************************/
+
+
+.titulo_recib{
+width:18.3cm;
+border-collapse:collapse;
+border:solid 1px #000000;
+margin-bottom:5px;
+background-color:#FFCC99;
+font-weight:normal;
+}
+
+.titulo_recib th{
+font-weight:normal;
+}
+
+
+
+.head_recib{
+width:18.3cm;
+border-collapse:collapse;
+border:solid 1px #000000;
+margin-bottom:5px;
+}
+.head_recib th{
+font-family:arial;
+font-size:13pt;
+}
+
+.relrecib{
+width:18.3cm;
+border-collapse:collapse;
+}
+
+.relrecib thead th{
+font-family:arial;
+font-size:13pt;
+}
+
+.relrecib tbody tr.alto{
+height:23px;
+}
+
+.relrecib tbody th{
+font-size:6pt;
+font-family:arial;
+text-transform:uppercase;
+font-weight:normal;
+vertical-align:bottom;
+}
+
+.relrecib tbody td{
+font-family:arial;
+font-size:11pt;
+vertical-align:bottom;
+}
+
+.relrecib tbody td.linha{
+border-bottom:solid 1px #000000;
+}
+
+.relrecib tbody td span{
+margin-right:70px;
+float:right;
+}
+
+/*
+AQUI É O CSS DO TABLE SORT
+*/
+.sort-arrow {
+	width:					0px;
+	height:					0px;
+}
+
+.sort-arrow.descending {
+}
+
+.sort-arrow.ascending {
+}

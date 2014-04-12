@@ -1,0 +1,1 @@
+<div id="message" align="center" style="display:none"></div>

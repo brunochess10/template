@@ -1,0 +1,41 @@
+.common tr th{
+  height:30px;
+  overflow:hidden;
+  cursor:pointer;
+  font-family:Arial;
+  font-size:8pt;
+  font-weight:bold;
+  vertical-align:middle;
+  text-align:center;
+  background-repeat:repeat-x;
+  display:table-cell;
+  background-image:url('../imagens/title_repeater.jpg');
+  background-color:#FFFFFF;
+  -moz-user-select:none;
+  color:#666666;
+  border-top: solid 1px #C1C1C1;
+  border-bottom: solid 1px #C1C1C1;
+  border-left: solid 2px #C1C1C1;
+  border-right: solid 2px #C1C1C1;
+}		
+.common{
+  border-top: solid 1px #C1C1C1;
+  border-bottom: solid 1px #C1C1C1;
+  border-left: solid 2px #C1C1C1;
+  border-right: solid 2px #C1C1C1;
+  margin-top:0px;
+}
+
+.common tr td{
+  border-top: solid 1px #C1C1C1;
+  border-bottom: solid 1px #C1C1C1;
+  border-left: solid 2px #C1C1C1;
+  border-right: solid 2px #C1C1C1;
+}
+
+.subtitulo_tabela{
+  background-color:#f2f2f2;
+  text-align:center;
+  color:#666666;
+  font-weight:bold;
+}

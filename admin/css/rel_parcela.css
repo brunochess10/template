@@ -1,0 +1,94 @@
+body{
+margin:0px 0px 0px 0px;
+background-color:#ffffff;
+font-family:arial;
+}
+
+.quebra{ 
+	page-break-after:always;
+}
+
+th{font-size:7pt;}
+td{font-size:7pt;}
+
+th.right{text-align:right;}
+th.left{text-align:left;}
+th.center{text-align:center;}
+td.right{text-align:right;}
+td.left{text-align:left;}
+td.center{text-align:center;}
+
+th#right{text-align:right;}
+th#left{text-align:left;}
+th#center{text-align:center;}
+td#right{text-align:right;}
+td#left{text-align:left;}
+td#center{text-align:center;}
+
+
+.1{
+width:10cm;
+border-collapse:collapse;
+margin-right:0.2cm;
+}
+
+.1 thead tr{
+background-image:url(../images_rel/cinza.gif);
+}
+
+.1 tbody tr th{
+background-image:url(../images_rel/verde.gif);
+}
+
+.1 tfoot tr td{
+background-image:url(../images_rel/verde.gif);
+}
+
+
+
+.2{
+width:10cm;
+border-collapse:collapse;
+}
+
+.2 thead tr{
+background-image:url(../images_rel/cinza.gif);
+}
+
+.2 tbody tr th{
+background-image:url(../images_rel/amarelo.gif);
+}
+
+
+.2 tfoot tr td{
+background-image:url(../images_rel/amarelo.gif);
+}
+
+
+.3{
+width:29cm;
+border-collapse:collapse;
+border:solid 1px #000000;
+}
+
+.3 thead tr{
+background-image:url(../images_rel/laranja.gif);
+}
+
+.3 thead tr td{
+border:solid 1px #000000;
+}
+
+.3 thead tr td img{
+width:0px;
+height:0px;
+}
+
+.3 tbody tr td{
+border:solid 1px #000000;
+}
+
+.3 tfoot tr td{
+border:solid 1px #000000;
+background-image:url(../images_rel/laranja.gif);
+}	
